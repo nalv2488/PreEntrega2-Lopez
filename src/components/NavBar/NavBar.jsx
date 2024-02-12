@@ -13,11 +13,11 @@ function NavBar() {
                 <img className='logo-epl-main' src="/public/img/pl-main-logo.png" alt="ELP-logo" />
 
                 <Link to={'/'}>
-                    <h1 className='h1-header'>EPL</h1>
+                    <a className='a-header'>EPL</a>
                 </Link>
 
                 <div className='div-ul-header'>
-                    <ul className='ul-header'>
+                    <ul className='ul-header container'>
                         <li className='li-header'>
                             <NavLink to={'/'}>Inicio</NavLink>
                         </li>
