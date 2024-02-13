@@ -13,7 +13,7 @@ function NavBar() {
                 <img className='logo-epl-main' src="/public/img/pl-main-logo.png" alt="ELP-logo" />
 
                 <Link to={'/'}>
-                    <a className='a-header'>EPL</a>
+                    <a className='a-header'><strong>English Premier League</strong></a>
                 </Link>
 
                 <div className='div-ul-header'>

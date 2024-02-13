@@ -17,8 +17,6 @@ function App() {
 
         <NavBar />
 
-        {/* <ItemListContainer saludo={"Bienvenidos a la tienda de la English Premier League"} /> */}
-
         <Routes>
 
           <Route path='/' element={<ItemListContainer />} />
